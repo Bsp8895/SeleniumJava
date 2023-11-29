@@ -8,9 +8,9 @@ public class AlertConfirm {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		System.setProperty("webdriver.chrome.driver","G:\\RahulShetty\\chromedriver-win64\\chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+
+		System.setProperty("webdriver.chrome.driver", "G:\\RahulShetty\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.cssSelector("#name")).sendKeys("Bhabani");
